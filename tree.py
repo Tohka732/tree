@@ -344,4 +344,5 @@ labels = ['Outlook', 'Temperature', 'Humidity', 'Windy']
 
 # 生成决策树
 tree = creat_tree(weather_data, labels[:])  # 注意传入拷贝 labels[:]
+
 create_plot(tree)
